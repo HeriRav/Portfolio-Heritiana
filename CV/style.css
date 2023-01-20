@@ -1,0 +1,68 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    scroll-padding-top: 4rem;
+}
+
+body{
+    background-image: url("img/background_sky.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+
+.profile{
+    margin-bottom: 250px;
+}
+
+.card-title h5{
+    color: blue;
+}
+
+.webref{
+    text-decoration: none;
+}
+
+.website{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+b{
+    color: #0088AB;
+}
+
+.hello{
+    color: blue;
+    animation-name: chg-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes chg-color{
+    0% {color: blue; top: 0px; left: 0px;}
+    25% {color: purple; top: 0px; left: 400px;}
+    50% {color: red; top: 400px; left: 400px;}
+    75% {color: orange; top: 400px; left: 0px;}
+    100% {color: yellow; top: 0px; left: 0px;}
+}
+
+.form{
+    background-color: #ebebeb;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
